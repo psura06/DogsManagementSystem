@@ -1,10 +1,12 @@
 package com.example.DMS.Models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
 import com.example.DMS.Models.Trainer;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+
 
 /**
  * 
